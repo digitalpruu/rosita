@@ -1,9 +1,10 @@
-const title = "Titulo del emprendimiento";
-const email = "Email del emprendimiento";
+const title = "Rosita";
+const email = "rosariopacheco842@gmail.com";
 const mensajeWhatsApp = encodeURIComponent(
-    `¡Hola! Estoy muy interesado en tus productos de ${title} y me gustaría recibir más información sobre ellos. Espero poder hablar pronto contigo para aclarar algunas dudas. ¡Gracias!`
+    "¡Hola! Estoy interesado en conocer más sobre los productos de " + title + " y me gustaría obtener más información. ¡Gracias!"
 );
-const numeroWhatsApp = "Numero del emprendimiento";
+const numeroWhatsApp = "+573107751650";
+
 const textos = {
     index: {
         title: title,
@@ -12,25 +13,25 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "Descripción del emprendimiento parrafo uno",
-        description2: "Descripcion del emprendimiento parrafo dos"
+        description1: "En Rosita, nos dedicamos a la dulcería y papelería, ofreciendo una variedad de productos que endulzan cualquier ocasión.",
+        description2: "Aunque aún no tenemos un mensaje definido sobre nosotros, nuestra pasión por los detalles y la calidad es evidente en cada uno de nuestros productos."
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
-        email: email
+        email: email,
     },
     footer: {
-        slogan:{
-            p1: "slogan del emprendimiento parrafo uno",
-            p2: "slogan del emprendimiento parrafo dos"
+        slogan: {
+            p1: "", // Sin slogan proporcionado
+            p2: ""
         },
-        address: "Dirección del emprendimiento",
+        address: "", // Información no proporcionada
         phone: numeroWhatsApp,
         email: email,
-        facebook: "https://www.facebook.com/",
-        instagram: "https://www.instagram.com/",
-        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`
+        facebook: "www.facebook.com", // Facebook pendiente
+        instagram: "www.instagram.com", // Instagram no proporcionado
+        whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
     },
-
 };
+
 export default textos;

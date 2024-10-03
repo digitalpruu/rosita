@@ -13,8 +13,10 @@ const textos = {
         title: title,
     },
     about: {
-        description1: "En Rosita, nos dedicamos a la dulcería y papelería, ofreciendo una variedad de productos que endulzan cualquier ocasión.",
-        description2: "Aunque aún no tenemos un mensaje definido sobre nosotros, nuestra pasión por los detalles y la calidad es evidente en cada uno de nuestros productos."
+        description1: "En Rosita, combinamos lo mejor de la dulcería, los víveres y la papelería en un solo lugar. Desde nuestra apertura, hemos estado dedicados a ofrecer una experiencia única, donde los clientes pueden disfrutar de deliciosos dulces mientras exploran otra variedad de productos.\n" +
+            "Nuestra dulcería está llena de golosinas que alegrarán tu día, mientras que nuestros víveres y sección de papelería ofrece todo lo necesario para ti. Cada producto está seleccionado con cuidado para asegurar la mejor calidad y satisfacción.\n" +
+            "En Rosita, nos esforzamos por brindar un servicio amigable y una experiencia de compra agradable. Ya sea que vengas por un dulce especial, víveres o por artículos de papelería, nuestro objetivo es hacer que cada visita sea memorable.\n" +
+            "Visítanos y descubre cómo Rosita puede endulzar tu día. ¡Te esperamos con una amplia selección y una sonrisa!"
     },
     contact: {
         whatsappLink: `https://wa.me/${numeroWhatsApp}?text=${mensajeWhatsApp}`,
